@@ -1,9 +1,13 @@
-
 export interface GameCard {
   id: number;
   value: string;
   amount: number;
   isOpened: boolean;
+}
+
+export interface Denomination {
+  text: string;
+  amount: number;
 }
 
 export interface GameState {
@@ -13,4 +17,5 @@ export interface GameState {
   openedIndices: number[];
   isThinking: boolean;
   currentWish: string;
+  denominations: Denomination[];
 }
