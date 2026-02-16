@@ -12,12 +12,12 @@ export const DEFAULT_DENOMINATIONS: Denomination[] = [
   { text: "10.000 đ", amount: 10000 },
   { text: "20.000 đ", amount: 20000 },
   { text: "50.000 đ", amount: 50000 },
+  { text: "30.000 đ", amount: 30000 },
+  { text: "40.000 đ", amount: 40000 },
   { text: "100.000 đ", amount: 100000 },
-  { text: "200.000 đ", amount: 200000 },
-  { text: "500.000 đ", amount: 500000 },
-  { text: "Lộc Xuân 2026", amount: 226000 },
-  { text: "Lộc Phát", amount: 68000 },
-  { text: "Tài Lộc", amount: 88000 },
+  { text: "Lộc Xuân 2026", amount: 200000 },
+  { text: "Lộc Phát", amount: 100000 },
+  { text: "Tài Lộc", amount: 500000 },
 ];
 
 // Generate 35 cards for a nice grid
