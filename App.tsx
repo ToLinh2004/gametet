@@ -49,7 +49,7 @@ const App: React.FC = () => {
   useEffect(() => {
     // Use a royalty-free music link or ensure the local file exists
     audioRef.current = new Audio(
-      "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-17.mp3",
+      "/music-lunar-new-year.mp3",
     );
     audioRef.current.loop = true;
     audioRef.current.volume = 0.4;
