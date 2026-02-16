@@ -240,7 +240,7 @@ const App: React.FC = () => {
             )}
           </div>
           {hasAlreadyPlayed && (
-            <div className="mt-12 text-center animate-in fade-in zoom-in duration-1000 space-y-6">
+            <div className="mt-2 text-center animate-in fade-in zoom-in duration-1000 space-y-4">
               <div className="inline-block bg-yellow-500/10 border-2 border-yellow-500/50 backdrop-blur-md px-10 py-6 rounded-3xl shadow-2xl">
                 <h2 className="font-festive text-4xl text-yellow-400 mb-2">
                   Chúc Mừng Năm Mới!
